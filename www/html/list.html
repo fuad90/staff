@@ -1,0 +1,13 @@
+
+
+        <ion-list show-Delete = "data.showDelete" show-Reorder = "data.showReorder">
+            <ion-item class="item-avatar item-icon-right" ng-repeat="datastaff in datastaffs" type="item-text-wrap" href="#">
+                <img ng-src="{{datastaff.img}}">
+                <i class="icon ion-ios7-arrow-right"></i>
+                <h2>{{datastaff.nama}}
+                    <br> 
+                    <font size="2" color="gray" >No Kad Pengenalan : {{datastaff.no_kp}}</font>
+                </h2>
+                
+            </ion-item>
+        </ion-list>
